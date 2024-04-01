@@ -1,0 +1,23 @@
+.corpo {
+    background-color: rgb(247, 247, 145);
+}
+.titulo {
+    color: #ffffff;
+    margin-top: 20px;
+    text-align: center;
+}
+.h2 {
+    background-color: #ffff00;
+    color: #ff0000;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-style: solid;
+    border-color: black;
+}
+.paragrafo {
+    margin: 20px;
+    text-align: center;
+    font-size: 18px;
+}
