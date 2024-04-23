@@ -1,0 +1,36 @@
+header {
+  background-color: #6466ee;
+  padding: 25px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-size: 2.8em;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav a {
+  margin-right: 1.3em;
+  font-size: 1.5em;
+  font-size: 2.5em;
+  color: rgb(75, 255, 75);
+  transition: 0.5s ease-in-out;
+}
+
+header h1, a {
+  color: #161616;
+  transition: 0.2s ease-in-out;
+}
+
+header h1:hover, a:hover {
+  color: white;
+}
