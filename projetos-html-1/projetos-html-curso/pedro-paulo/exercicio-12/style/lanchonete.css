@@ -1,0 +1,21 @@
+body {
+    background-color: #ee8b72;
+}
+
+h1 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+h2 {
+    background-color: #ffff00;
+    color: #ff0000;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
