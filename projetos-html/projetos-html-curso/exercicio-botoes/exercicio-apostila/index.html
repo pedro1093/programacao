@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/css/footer.css">
+    <link rel="stylesheet" href="./src/css/header.css">
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <!-- ICONS
+criar conta e entrar no kit
+https://fontawesome.com/kits/f7c21158eb/setup
+-->
+    <script src="https://kit.fontawesome.com/f7c21158eb.js" crossorigin="anonymous" defer></script>
+    <script src="./src/js/script.js"></script>
+</head>
+
+<body>
+    <header>
+
+        <h1>Proj.Pedro</h1>
+        <nav>
+            <a href="https://github.com/pedro1093/programacao" target="_blank">
+                <i class="fa-brands fa-square-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/pedro-paulo-635113276/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UC0iRjq-n_tTn9ooxrisfYEg" target="_blank">
+                <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://www.instagram.com/_pedrin_xs/" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100028331377121" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <figure>
+            <img src="./setas/carro.jpg" alt="Imagem de Carro">
+            <figcaption>Carrinho</figcaption>
+        </figure>
+        <section class="main-content">
+            <article class="text">
+                <h2>Sobre o projeto</h2>
+                <p>
+                    O projeto sera um carrinhho capaz de receber comandos pelo site e introduzilos em um carro que
+                    estamos criando e automatizando.
+                </p>
+            </article>
+            <aside class="techs">
+                <h2>Funções do projeto</h2>
+                <div class="cards-container">
+                    <div class="card" onclick="funcaoDoJavaScript('esquerda')">
+                        <img src="./setas/esquerda.png" alt="Seta para esquerda">
+                    </div>
+                    <div class="card" onclick="funcaoDoJavaScript('direita')">
+                        <img src="./setas/direita.png" alt="Seta para direita">
+                    </div>
+                    <div class="cards-container2">
+                        <div class="cards" onclick="funcaoDoJavaScript('frente')">
+                            <img src="./setas/cima.png" alt="Seta para cima">
+                        </div>
+                        <div class="cards" onclick="funcaoDoJavaScript('re')">
+                            <img src="./setas/baixo.png" alt="Seta para baixo">
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <span>
+            &copy; Pedro Paulo, 2024 - Todos os direitos reservados.
+        </span>
+        <div class="cards-container">
+            <div class="card">
+                <img src="./img/techs/Python-logo-notext.svg.png" alt="Logo do HTML5">
+            </div>
+            <div class="card">
+                <img src="./img/techs/images.png" alt="Logo do CSS3">
+            </div>
+            <div class="card">
+                <img src="./img/techs/images (1).png" alt="Logo do Javascript">
+            </div>
+            <div class="card">
+                <img src="./img/techs/download.png" alt="Logo do React">
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
